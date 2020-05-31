@@ -592,20 +592,50 @@ section {
   margin-bottom: 15px;
 }
 
+.services .title_index {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
 .services .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
+.services .title_index:hover {
+   text-decoration: underline;
+   color: #111;
+}
+
+
 .services .title a {
   color: #111;
 }
+
+.services .title_index a {
+  color: #111;
+}
+
+.services .description_index {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
 
 .services .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
+}
+
+.services .description_index:hover {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+  text-decoration: underline;
 }
 
 .services .icon-box-pink .icon i {
